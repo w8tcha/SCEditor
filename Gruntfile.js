@@ -200,6 +200,10 @@ module.exports = (grunt) => {
 					'dist/development/jquery.sceditor.xhtml.js': [
 						'dist/development/jquery.sceditor.js',
 						'src/formats/xhtml.js'
+					],
+					'dist/development/jquery.sceditor.markdown.js': [
+						'dist/development/jquery.sceditor.js',
+						'src/formats/markdown.js'
 					]
 				}
 			}
@@ -237,6 +241,13 @@ module.exports = (grunt) => {
 							'src/formats/xhtml.js'
 						],
 						dest: 'minified/jquery.sceditor.xhtml.min.js'
+					},
+					{
+						src: [
+							'minified/jquery.sceditor.min.js',
+							'src/formats/markdown.js'
+						],
+						dest: 'minified/jquery.sceditor.markdown.min.js'
 					},
 					{
 						expand: true,

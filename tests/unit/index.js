@@ -13,5 +13,6 @@ import 'tests/unit/formats/bbcode.parser.js';
 import 'tests/unit/formats/bbcode/matching.js';
 import 'tests/unit/formats/bbcode/nesting.js';
 import 'tests/unit/formats/xhtml.js';
+import 'tests/unit/formats/markdown.js';
 import 'tests/unit/plugins/autoyoutube.js';
 import 'tests/unit/jquery.sceditor.js';
